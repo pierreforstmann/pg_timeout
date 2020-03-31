@@ -1,0 +1,49 @@
+{
+   "name": "pg_timeout",
+   "abstract": "timeout for idle database session",
+   "version": "0.0.1",
+   "maintainer": [
+      "Pierre Forstmann"
+   ],
+   "license": {
+      "PostgreSQL": "http://www.postgresql.org/about/licence"
+   },
+   "prereqs": {
+      "runtime": {
+         "requires": {
+            "PostgreSQL": "9.5.21"
+         },
+         "recommends": {
+            "PostgreSQL": "9.5.21"
+         }
+      }
+   },
+   "provides": {
+     "pg_queryid": {
+         "abstract": "timeout for database session",
+         "file": "pg_timeout.c",
+         "docfile": "README.md",
+         "version": "0.0.1"
+      }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "http://github.com/pierreforstmann/pg_timeout/issues"
+      },
+      "repository": {
+        "url":  "https://github.com/pierreforstmann/pg_timeout.git",
+        "web":  "https://github.com/pierreforstmann/pg_timeout",
+        "type": "git"
+      }
+   },
+   "generated_by": "Pierre Forstmann",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "timeout",
+      "idle",
+      "session"
+   ]
+}
