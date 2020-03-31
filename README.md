@@ -1,4 +1,4 @@
-#pg_timeout
+# pg_timeout
 
 PostgreSQL extension to manage database idle session timeout.
 
