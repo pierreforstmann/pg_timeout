@@ -23,7 +23,7 @@ Extension can be loaded at server level with `shared_preload_libraries` paramete
 
 pg_timeout has 2 specific GUC: <br>
 - `pg_timeout.naptime`: number of seconds for the dedicated backgroud worker to sleep between idle session checks (default value is 10 seconds)<br>
-- `pg_timeout.idle_session_timeout`: database session idle timeout in seconds (default value is 5 seconds)<br>
+- `pg_timeout.idle_session_timeout`: database session idle timeout in seconds (default value is 60 seconds)<br>
 
 Note that pg_timeout only takes care of database session with idle status (idle in transaction is not taken into account).
 
