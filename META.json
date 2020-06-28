@@ -1,7 +1,7 @@
 {
    "name": "pg_timeout",
    "abstract": "timeout for idle database session",
-   "version": "0.0.2",
+   "version": "1.0.0",
    "maintainer": [
       "Pierre Forstmann"
    ],
@@ -23,7 +23,7 @@
          "abstract": "timeout for database session",
          "file": "pg_timeout.c",
          "docfile": "README.md",
-         "version": "0.0.2"
+         "version": "1.0.0
       }
    },
    "resources": {
