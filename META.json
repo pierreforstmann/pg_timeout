@@ -23,7 +23,7 @@
          "abstract": "timeout for database session",
          "file": "pg_timeout.c",
          "docfile": "README.md",
-         "version": "1.0.0
+         "version": "1.0.0"
       }
    },
    "resources": {
