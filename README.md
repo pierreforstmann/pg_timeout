@@ -34,7 +34,7 @@ Add in postgresql.conf: <br>
 `pg_timeout.naptime=30` <br>
 `pg_timeout.idle_session_timeout=30` <br>
 
-Any database session with is idle for more than 30 seconds is killed. In database instance log you get messages similar to: <br>
+Any database session which is idle for more than 30 seconds is killed. In database instance log you get messages similar to: <br>
 `LOG:  pg_timeout_worker: idle session PID=26546 user=pierre database=pierre application=psql hostname=NULL` <br>
 `LOG:  pg_timeout_worker: idle session(s) since 30 seconds terminated` <br>
 `FATAL:  terminating connection due to administrator command`
