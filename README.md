@@ -2,6 +2,8 @@
 
 PostgreSQL extension to manage database idle session timeout.
 
+This extension is no more maintained because `idle_session_timeout` parameter can be used in current PostgreSQL versions.
+
 # Installation 
 ## Compiling
 
